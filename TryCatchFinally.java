@@ -1,7 +1,8 @@
 public class TryCatchFinally {
     public static void main(String[] args) {
         try {
-            int angka = 10 / 0; //tidak valid dalam matematika, sengaja di errorkan
+            int angka = 10 / 0;//tidak valid dalam matematika, sengaja di errorkan
+            System.out.println("Hasil: " + angka);
         } catch (ArithmeticException e) {
             System.out.println("Error: " + e.getMessage());
         } finally {

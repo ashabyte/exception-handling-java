@@ -1,4 +1,4 @@
-public class ThrowWithoutJavaio {
+public class ThrowsWithoutJavaio {
     public static void bagi(int a, int b) throws ArithmeticException {
         if (b == 0) {
             throw new ArithmeticException("Tidak bisa membagi dengan nol!");

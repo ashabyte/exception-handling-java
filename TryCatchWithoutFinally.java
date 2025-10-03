@@ -1,7 +1,8 @@
 public class TryCatchWithoutFinally {
     public static void main(String[] args) {
         try {
-            int angka = 20 / 0; //sengaja di errorkan
+            int angka = 20 / 0;//sengaja di errorkan
+            System.out.println("Hasil: " + angka);
         } catch (ArithmeticException e) {
             System.out.println("Terjadi error: " + e.getMessage());
         }

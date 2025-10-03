@@ -8,6 +8,6 @@ public class Throw {
     }
 
     public static void main(String[] args) {
-        cekUmur(15); // Akan lempar exception
+        cekUmur(15); //akan melempar exception
     }
 }

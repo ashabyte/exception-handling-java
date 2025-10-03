@@ -1,6 +1,6 @@
 public class StudiKasusGabungan {
 
-    // Method login dengan throws
+    //method login dengan throws
     public static void login(String username, String password) throws Exception {
         if (username == null || password == null || username.isEmpty() || password.isEmpty()) {
             throw new IllegalArgumentException("Username/Password tidak boleh kosong!");
@@ -13,7 +13,7 @@ public class StudiKasusGabungan {
 
     public static void main(String[] args) {
         try {
-            // Ambil console bawaan Java
+            //mengambil console bawaan java
             java.io.Console console = System.console();
 
             String user = console.readLine("Masukkan Username: ");
